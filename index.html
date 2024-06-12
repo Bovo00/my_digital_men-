@@ -3,46 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Menu</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Digital Menu - Sagra della Rana e della Polenta</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Sagra della Rana - Menù Digitale</h1>
+        <h1>Sagra della Rana e della Polenta - Menù Digitale</h1>
     </header>
-    <main>
-        <section class="menu-section">
-            <h2>Antipasti</h2>
-            <div class="menu-item">
-                <h3>Antipasto di Rane</h3>
-                <img src="images/antipasto.jpg" alt="Antipasto di Rane" loading="lazy">
-                <p>Rane fritte servite con salsa di limone e prezzemolo.</p>
-                <p class="price">€10,00</p>
-            </div>
-            <div class="menu-item">
-                <h3>Insalata di Rane</h3>
-                <img src="images/insalata.jpg" alt="Insalata di Rane" loading="lazy">
-                <p>Insalata fresca con filetti di rana, pomodorini e aceto balsamico.</p>
-                <p class="price">€8,00</p>
-            </div>
-        </section>
-        <section class="menu-section">
-            <h2>Primi Piatti</h2>
-            <div class="menu-item">
-                <h3>Risotto alla Rana</h3>
-                <img src="images/risotto.jpg" alt="Risotto alla Rana" loading="lazy">
-                <p>Risotto cremoso con carne di rana e una spolverata di prezzemolo.</p>
-                <p class="price">€12,00</p>
-            </div>
-            <div class="menu-item">
-                <h3>Pasta alle Rane</h3>
-                <img src="images/pasta.jpg" alt="Pasta alle Rane" loading="lazy">
-                <p>Pasta fresca con sugo di rana, pomodorini e basilico.</p>
-                <p class="price">€11,00</p>
-            </div>
-        </section>
-        <!-- Aggiungi altre sezioni per Secondi Piatti, Contorni, Dessert e Bevande -->
+    <nav class="menu-buttons">
+        <button id="primi-btn">Primi</button>
+        <button id="secondi-btn">Secondi</button>
+        <button id="pizze-btn">Pizze</button>
+        <button id="dolci-btn">Dolci</button>
+        <button id="bar-btn">Bar</button>
+    </nav>
+    <main id="menu-content">
+        <!-- Qui verranno aggiunti dinamicamente i contenuti dei vari sotto-menu -->
     </main>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
