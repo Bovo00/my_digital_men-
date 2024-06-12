@@ -64,3 +64,12 @@ header {
     color: #4CAF50;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .menu-buttons button {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin: 0 5px;
+    }
+}
+
